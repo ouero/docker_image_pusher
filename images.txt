@@ -2,7 +2,7 @@
 #可添加 --platform=xxxxx 的参数指定镜像架构 --platform=linux/arm64 xiaoyaliu/alist
 #可使用 k8s.gcr.io/kube-state-metrics/kube-state-metrics 格式指定私库 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #可使用#开头作为注释
---platform=linux/amd64 lmsysorg/sglang:nightly-dev-20260304-c18cff4f 
+--platform=linux/arm64 lmsysorg/sglang:nightly-dev-cu13-20260326-7c7b2a8c 
 
 
 
