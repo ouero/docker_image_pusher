@@ -2,7 +2,7 @@
 #可添加 --platform=xxxxx 的参数指定镜像架构 --platform=linux/arm64 xiaoyaliu/alist      或者linux/amd64
 #可使用 k8s.gcr.io/kube-state-metrics/kube-state-metrics 格式指定私库 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #可使用#开头作为注释
---platform=linux/amd64 vllm/vllm-openai:nightly-4729b90838a3160505ccced0d96d82d3e7069277
+--platform=linux/amd64 docker pull pgvector/pgvector:0.8.2-pg18-bookworm
 
 
 
